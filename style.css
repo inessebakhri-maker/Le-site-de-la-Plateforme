@@ -15,7 +15,7 @@
     text-align: left;
     align-items: center;
     width: 50%;
-    font-size: 23px;
+    font-size: 22px;
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 50px;
@@ -95,6 +95,8 @@
 
 #photo-footer {
     width: 300px;
+    margin-left: -3px;
+
 
 }
 
@@ -111,6 +113,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: -60px;
+
 }
 
 .reseaux-sociaux{
@@ -120,7 +124,15 @@
     flex-direction: row;
     align-content: space-between;
     padding-right: 10px ;
+    margin: 9px 5px;
+    margin-left: 55px;
 
+}
+
+.img-width {
+    width: 25px;
+    margin-left: 15px;
+    margin: 9px 5px;
 
 }
 
@@ -156,6 +168,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     margin: 9px 5px;
+    margin-left: 55px;
     cursor: pointer;
 }
 
@@ -173,6 +186,24 @@
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     margin: 9px 5px;
+    margin-left: 55px;
     cursor: pointer;
 }
 
+.sommaire {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 350;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    align-content: space-between;
+    align-items : center;
+
+
+}
