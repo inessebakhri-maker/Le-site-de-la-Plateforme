@@ -112,20 +112,31 @@
 #main-footer {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     margin-left: -60px;
 
 }
 
+#block-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#block-2{
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start ;
+}
 .reseaux-sociaux{
-    width: 25px;
+    width: 28px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-content: space-between;
     padding-right: 10px ;
     margin: 9px 5px;
-    margin-left: 55px;
+    margin-left: 20px;
 
 }
 
@@ -168,7 +179,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     margin: 9px 5px;
-    margin-left: 55px;
+    margin-left: 12px;
     cursor: pointer;
 }
 
@@ -186,7 +197,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     margin: 9px 5px;
-    margin-left: 55px;
+    margin-left: 12px;
     cursor: pointer;
 }
 
@@ -203,7 +214,6 @@
     display: flex;
     font-family: 'Poppins', sans-serif;
     align-content: space-between;
-    align-items : center;
 
 
 }
