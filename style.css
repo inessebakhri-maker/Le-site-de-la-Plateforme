@@ -31,7 +31,7 @@
 }
 .gris-verdana{
     color: #424141;
-    font-family: Verdana;
+    font-family: Verdana, serif;
     font-weight: bold;
     font-size: small;
     display: flex;
@@ -142,7 +142,6 @@
 
 .img-width {
     width: 25px;
-    margin-left: 15px;
     margin: 9px 5px;
 
 }
@@ -165,8 +164,6 @@
 }
 
 #button1 {
-    display: flex;
-    flex-direction: column;
     background-color : white;
     border: none;
     color: black;
@@ -177,10 +174,17 @@
     text-decoration: none;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
     margin: 9px 5px;
     margin-left: 12px;
     cursor: pointer;
+}
+
+#button1 {
+    display: flex;
+}
+
+#button1 {
+    font-size: 14px;
 }
 
 #button2 {
@@ -204,7 +208,6 @@
 .sommaire {
     text-decoration: none;
     color: white;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 350;
     border: none;
     cursor: pointer;
