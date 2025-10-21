@@ -128,6 +128,18 @@
     flex-direction: column ;
     align-items: flex-start ;
 }
+
+#block-3{
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start ;
+}
+
+#block-4{
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start ;
+}
 .reseaux-sociaux{
     width: 28px;
     display: flex;
@@ -214,9 +226,29 @@
     border-radius: 4px;
     align-items: center;
     font-size: 15px;
-    display: flex;
     font-family: 'Poppins', sans-serif;
     align-content: space-between;
+}
 
+#button3 {
 
+    background-color: #333232;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-width: 3px;
+    border-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#photo-april{
+    width: 150px;
+    padding-top: 18px;
 }
