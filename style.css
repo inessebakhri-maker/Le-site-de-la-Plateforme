@@ -296,6 +296,12 @@
     margin-left: 200px;
 
 }
+
+ #fond{
+     background-color: #f6f6f6 ; padding-top: 45px;
+
+
+ }
 #titre3 {
     font-family: 'Montserrat', sans-serif;
     font-size : larger;
@@ -313,18 +319,61 @@
     display: flex;
     flex-direction: row;
     justify-content : flex-start;
+    align-content: stretch;
+    align-items: center;
 }
 
-#paragraphe3 {
+.paragraphe3 {
     text-align: justify;
-    margin-left: 190px;
+    margin-left: 30%;
     font-family: 'Poppins', sans-serif;
     color: grey;
     line-height: 1.7;
 }
 
-#qualiopi{
+#qualiopi1{
 width: 300px;
     display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
 
+}
+#qualiopi2 {
+    width: 300px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 90px;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+    justify-content : flex-start;
+    align-content: stretch;
+    align-items: center;
+    margin-right: 10%;
+}
+
+#text-containers {
+    display: flex;
+}
+
+#ligne{
+    width: 80%;
+    color: #7ebec6 ;
+
+}
+
+.style-text{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    line-height: 1.7;
+}
+#flex-text {
+    display: flex;
+}
+
+.block-text{
+    display: flex;
 }
