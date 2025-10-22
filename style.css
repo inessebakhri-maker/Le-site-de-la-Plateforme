@@ -266,30 +266,65 @@
 
 #paragraphe1 {
     text-align: justify;
-    margin-left: 200px;
+    margin-left: 150px;
     font-family: 'Poppins', sans-serif;
     color: grey;
     line-height: 1.7;
-    float: left;
 }
 
-#lpf {
+.lpf {
     font-weight: bold;
+    display: inline;
+}
+.lpf2{
+    font-weight: bold;
+    display: inline-block;
 }
 
 #paragraphe2 {
-    display: flex;
     text-align: justify;
-    margin-left: 200px;
+    margin-right: 150px;
     font-family: 'Poppins', sans-serif;
     color: grey;
     line-height: 1.7;
-    float: right;
 }
 
 #titre2 {
     font-family: 'Montserrat', sans-serif;
     font-size : larger;
     font-weight : bolder;
+    margin-left: 200px;
+
+}
+#titre3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size : larger;
+    font-weight : bolder;
+    margin-left: 200px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content : flex-start;
+}
+
+#paragraphe3 {
+    text-align: justify;
+    margin-left: 190px;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    line-height: 1.7;
+}
+
+#qualiopi{
+width: 300px;
+    display: flex;
 
 }
