@@ -429,9 +429,29 @@ width: 300px;
 form {
     display: flex;
     flex-direction: column;
+}
+
+#style-contact {
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
     padding: 2%;
     border: 2px black solid;
     border-radius: 10px;
 }
 
+#titre-form {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 520;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+#civilité{
+    display: flex;
+}
+
+#select {
+
+}

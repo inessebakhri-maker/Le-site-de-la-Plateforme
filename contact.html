@@ -28,50 +28,69 @@
             entreprises, nos projets et actions ?
             <br>
             Contactez-nous.
-
-        <br>
+        </p>
         <br>
 
         <div>
             <img id="photo-contact" src="HP_visual_light.jpg" alt="photo">
         </div>
+    </div>
 
-        <h1>La plateforme/Contact</h1>
-        <div>
+        <div id="style-contact" >
+            <div id="titre-form" >
+                <h1>La Plateforme / Contact</h1>
+            </div>
+             <div>
             <form action="" method="post">
                 <div>
-                    <label for="name">Nom: </label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div>
-                    <label for="email-form">Email: </label>
-                    <input type="email" id="email-form" name="email" placeholder="example@gmail.com" required>
-                </div>
-                <div>
-                    <label for="file">File: </label>
-                    <input type="file" id="file" name="file" required>
-                </div>
-                <div>
-                    <label for="textarea">Text:</label>
-                    <textarea id="textarea" name="text" placeholder="message"></textarea>
-                </div>
-                <div>
-                    <label for="select">Reason</label>
-                    <select name="reason" id="select">
-                        <option value="contact">Contact</option>
-                        <option value="inscription">Inscription</option>
+                    <select name="reason" id=select">
+                        <option value="contact">Civilité*</option>
+                        <option value="contact">Mr.</option>
+                        <option value="inscription">Mme</option>
+                        <option value="contact">Mx.</option>
                     </select>
                 </div>
                 <div>
-                    <button type="reset">Reset</button>
+                    <input type="text" id="prénom" name="prénom" required placeholder="Prénom*" >
                 </div>
+                <div>
+                    <input type="text" id="nom" name="nom" required placeholder="Nom*" >
+                </div>
+                <div>
+                    <input type="text" id="email" name="email" required placeholder="E-mail*" >
+                </div>
+                <div>
+                    <input type="text" id="téléphone" name="télephone" required placeholder="Téléphone mobile*" >
+                </div>
+                <div>
+                    <select name="motif" id=motif">
+                        <option value="selectionner un motif de contrat">Sélectionner un motif de contrat*</option>
+                        <option value="aide à l'orientation et informations sur les programmes">Aide à l'orientation et informations sur les programmes</option>
+                        <option value="relation entreprises">Relations Entreprises</option>
+                        <option value="presse partenariat communication">Presse / Partenariat / Communication</option>
+                        <option value="suivi de candidatures">Suivi de candidatures</option>
+                        <option value="recrutement rh">Recrutement RH</option>
+                        <option value="taxe d'apprentissage">Taxe d'apprentissage</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="text" id="message" name="message" required placeholder="message*" >
+                </div>
+
+                <div>
+                    <input type="checkbox" id="case" name="case" checked />
+                    <label for="case">J'accepte de recevoir des informations de la part de La Plateforme</label>
+                </div>
+
                 <div>
                     <button type="submit">Envoyer</button>
                 </div>
 
             </form>
+             </div>
         </div>
-    </div>
+
 </div>
 </body>
 </html>
