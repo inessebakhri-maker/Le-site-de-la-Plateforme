@@ -42,7 +42,7 @@
             </div>
              <div>
             <form action="" method="post">
-                <div>
+                <div class="civ-pre-nom" >
                     <select name="reason" id=select">
                         <option value="contact">Civilité*</option>
                         <option value="contact">Mr.</option>
@@ -50,19 +50,19 @@
                         <option value="contact">Mx.</option>
                     </select>
                 </div>
-                <div>
+                <div class="civ-pre-nom" >
                     <input type="text" id="prénom" name="prénom" required placeholder="Prénom*" >
                 </div>
-                <div>
+                <div class="civ-pre-nom" >
                     <input type="text" id="nom" name="nom" required placeholder="Nom*" >
                 </div>
-                <div>
+                <div class="email-telephone" >
                     <input type="text" id="email" name="email" required placeholder="E-mail*" >
                 </div>
-                <div>
+                <div class="-email-telephone" >
                     <input type="text" id="téléphone" name="télephone" required placeholder="Téléphone mobile*" >
                 </div>
-                <div>
+                <div class="motif" >
                     <select name="motif" id=motif">
                         <option value="selectionner un motif de contrat">Sélectionner un motif de contrat*</option>
                         <option value="aide à l'orientation et informations sur les programmes">Aide à l'orientation et informations sur les programmes</option>
@@ -74,17 +74,22 @@
                         <option value="autre">Autre</option>
                     </select>
                 </div>
-                <div>
+                <div  class="message">
                     <input type="text" id="message" name="message" required placeholder="message*" >
                 </div>
 
-                <div>
-                    <input type="checkbox" id="case" name="case" checked />
+                <div id="case" >
+                    <input type="checkbox"  name="case" checked />
                     <label for="case">J'accepte de recevoir des informations de la part de La Plateforme</label>
                 </div>
 
-                <div>
+                <div class="envoyer" >
                     <button type="submit">Envoyer</button>
+                </div>
+
+                <div id="loi">
+                     <p>Selon l'article L.223-2 du code de la consommation, il est rappelé que le consommateur peut user de son droit à s'inscrire sur la liste d'opposition au démarchage téléphonique bloctel : bloctel.gouv.fr
+                     </p>
                 </div>
 
             </form>
